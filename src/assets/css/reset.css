@@ -46,25 +46,3 @@ i {
   cursor: pointer;
   font-size: 2rem;
 }
-
-button,
-input {
-  padding: 0.5rem;
-  outline: none;
-  border: none;
-  border-radius: 2px;
-  transition: all 0.4s ease-in-out;
-  cursor: pointer;
-}
-
-.container {
-  width: min(1200px, 100%);
-  padding: 2rem;
-  margin: 0 auto;
-}
-
-body {
-  min-height: 100vh;
-  background-color: #202b38;
-  color: #b5b5bc;
-}

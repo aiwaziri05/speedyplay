@@ -1,0 +1,99 @@
+/* GOOGLE FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* COLOR VARIABLES */
+
+$primary-color: #202b38;
+$secondary-color: #101418;
+$accent-color: #5fc9f3;
+$text-color: #b5b5bc;
+$darkgrayishblue: #222a32;
+$orange: #e90;
+$gradient: linear-gradient(
+  to right,
+  rgba(139, 189, 227, 0.95),
+  rgba(152, 183, 202, 0.55)
+);
+
+/* TYPOGRAPHY */
+
+$font-stack-oxanium: "Oxanium", cursive;
+$font-stack-poppins: "Poppins", sans-serif;
+
+$fw-500: 500;
+$fw-700: 700;
+$fw-800: 800;
+
+$fs-regular: 1rem;
+$fs-medium: 1.6rem;
+$fs-large: 2rem;
+$fs-x-large: 2.4rem;
+
+/* SPACING: PADDING & MARGINS */
+
+$m-1: 0.5rem;
+$m-2: 1rem;
+$m-3: 2.2rem;
+$m-1: 2.5rem;
+
+$p-1: 0.5rem;
+$p-2: 1.5rem;
+$p-3: 2rem;
+$p-4: 2.5rem;
+
+/* TRANSITIONS */
+
+$tr-1: all 0.2s ease-in-out;
+$tr-2: all 0.3s ease-in-out;
+$tr-3: all 0.4s ease-in-out;
+$tr-4: all 0.5s ease-in-out;
+
+/* BORDERS & RADIUS */
+$b-radius-1: 2px;
+$b-radius-2: 0.2rem;
+$b-radius-3: 0.5rem;
+$b-radius-4: 1rem;
+
+/* RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: $font-stack-poppins;
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: $tr-2;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+main,
+section {
+  position: relative;
+  padding: $p-4;
+}
+
+i {
+  display: inline-block;
+  color: $text-color;
+  cursor: pointer;
+  font-size: $fs-large;
+}

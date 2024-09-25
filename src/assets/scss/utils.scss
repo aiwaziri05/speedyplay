@@ -1,0 +1,17 @@
+// @import "reset";
+
+button,
+input {
+  padding: $p-1;
+  outline: none;
+  border: none;
+  border-radius: $b-radius-1;
+  transition: $tr-3;
+  cursor: pointer;
+}
+
+.container {
+  width: min(1200px, 100%);
+  padding: $p-3;
+  margin: 0 auto;
+}
