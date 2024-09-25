@@ -1,0 +1,16 @@
+{
+  "name": "speedyplay",
+  "version": "1.0.0",
+  "description": "speedy play game download website",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --style=compressed src/assets/scss:src/assets/css --no-source-map",
+    "watch": "sass --watch src/assets/scss:src/assets/css --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.3"
+  }
+}
